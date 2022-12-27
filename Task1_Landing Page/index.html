@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive page</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    
+</head>
+<body>
+    <div class="header">
+        <nav class="navbar">
+            <div class="logo"><b>LOGO</b></div>
+            <a href="#" class="toggle-btn">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="nav-menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="content-section">
+            <br>
+            <h1>Development Services</h1>
+            <br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum illum, asperiores tempore, quos explicabo officiis totam architecto, sit neque inventore ullam nulla porro! Labore voluptatibus, dolor, non autem eligendi quo iusto commodi molestias saepe doloremque, quae voluptates molestiae? Quam asperiores quo, nemo numquam quia, commodi ratione perspiciatis obcaecati nesciunt optio, laborum sed minus qui assumenda officiis ab molestiae aut at odit officia suscipit eum. Aliquam aspernatur in molestiae velit ullam quisquam perferendis doloremque ad, accusantium natus vitae dolor ratione corrupti repellendus. Velit libero quisquam placeat officia deleniti a consectetur ex repellendus, sint culpa, dicta quis temporibus laborum. Optio, maxime nulla.</p>
+            <br>
+            <div class="button">
+                <br>
+                <a href="">Join Now</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        const toggleBtn = document.getElementsByClassName("toggle-btn")[0]
+        const navmenu = document.getElementsByClassName("nav-menu")[0]
+        toggleBtn.addEventListener("click",() =>{
+            navmenu.classList.toggle("active")
+        })
+
+    </script>
+</body>
+</html>
